@@ -38,6 +38,7 @@ public class MainApp {
         System.out.println("Car = " + user.getCar());
         System.out.println();
      }
+      //userService.getUserByCarModelAndSeries(new Car("car1", 1));
       context.close();
    }
 }
